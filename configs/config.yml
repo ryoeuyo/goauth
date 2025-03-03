@@ -1,0 +1,8 @@
+environment: "local"
+token_ttl: 15m
+
+http_server:
+  port: "8080"
+  host: "localhost"
+  timeout: 10s
+  idle_timeout: 1m
